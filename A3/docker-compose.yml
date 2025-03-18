@@ -1,0 +1,110 @@
+# Michael Feldmann
+version: '3.8'
+
+# Netzwerk fuer das Cluster
+networks:
+  kafka-cluster:
+    name: kafka-cluster
+    driver: bridge
+
+services:
+  kafka1:
+    image: bitnami/kafka:latest
+    container_name: kafka1
+    environment:
+      KAFKA_ENABLE_KRAFT: "yes"
+      # Eindeutige Broker-ID und Rollen (Controller und Broker)
+      KAFKA_CFG_NODE_ID: 0
+      KAFKA_CFG_PROCESS_ROLES: broker,controller
+      # Alle Controller/Quorum-Voter definieren
+      KAFKA_CFG_CONTROLLER_QUORUM_VOTERS: "0@kafka1:9095"
+      # Interne Listener-Konfiguration (containerseitig)
+      KAFKA_CFG_LISTENERS: "PLAINTEXT_LOCAL://:9092,PLAINTEXT_DOCKER://:9096,CONTROLLER://:9095"
+      KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: "PLAINTEXT_LOCAL:PLAINTEXT,PLAINTEXT_DOCKER:PLAINTEXT,CONTROLLER:PLAINTEXT"
+      KAFKA_CFG_INTER_BROKER_LISTENER_NAME: PLAINTEXT_DOCKER
+      KAFKA_CFG_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+      KAFKA_CFG_ADVERTISED_LISTENERS: "PLAINTEXT_LOCAL://localhost:9092,PLAINTEXT_DOCKER://kafka1:9096"
+      # Timeout erweitern, um langsame Registrierungen zu vermeiden
+      KAFKA_CFG_INITIAL_BROKER_REGISTRATION_TIMEOUT_MS: 180000
+      KAFKA_KRAFT_CLUSTER_ID: "AUCiyWgGTVyH7w5qe3mAKw"
+      # Priorisiere Preferred Replica Election
+      KAFKA_CFG_PREFERRED_REPLICA_ELECTION_ENABLE: "true"
+      KAFKA_CFG_OFFSETS_TOPIC_REPLICATION_FACTOR: 3
+      KAFKA_CFG_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 3
+      KAFKA_CFG_TRANSACTION_STATE_LOG_MIN_ISR: 2      
+    ports:
+      # Port-Mapping
+      - "9092:9092"
+      - "9096:9096"
+      - "9095:9095" # Controller-Port
+    volumes:
+      - kafka1-data:/bitnami/kafka
+    networks:
+      - kafka-cluster
+
+  kafka2:
+    image: bitnami/kafka:latest
+    container_name: kafka2
+    depends_on:
+      - kafka1  # kafka2 wartet auf kafka1
+    environment:
+      KAFKA_ENABLE_KRAFT: "yes"
+      KAFKA_CFG_NODE_ID: 1
+      KAFKA_CFG_PROCESS_ROLES: broker
+      KAFKA_CFG_CONTROLLER_QUORUM_VOTERS: "0@kafka1:9095"
+      KAFKA_CFG_LISTENERS: "PLAINTEXT_LOCAL://:9093,PLAINTEXT_DOCKER://:9097"
+      KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: "PLAINTEXT_LOCAL:PLAINTEXT,PLAINTEXT_DOCKER:PLAINTEXT,CONTROLLER:PLAINTEXT"
+      KAFKA_CFG_INTER_BROKER_LISTENER_NAME: PLAINTEXT_DOCKER
+      KAFKA_CFG_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+      KAFKA_CFG_ADVERTISED_LISTENERS: "PLAINTEXT_LOCAL://localhost:9093,PLAINTEXT_DOCKER://kafka2:9097"
+      KAFKA_CFG_INITIAL_BROKER_REGISTRATION_TIMEOUT_MS: 180000
+      KAFKA_KRAFT_CLUSTER_ID: "AUCiyWgGTVyH7w5qe3mAKw"
+      KAFKA_CFG_OFFSETS_TOPIC_REPLICATION_FACTOR: 3
+      KAFKA_CFG_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 3
+      KAFKA_CFG_TRANSACTION_STATE_LOG_MIN_ISR: 2      
+    ports:
+      - "9093:9093"
+      - "9097:9097"
+    volumes:
+      - kafka2-data:/bitnami/kafka
+    networks:
+      - kafka-cluster
+
+  kafka3:
+    image: bitnami/kafka:latest
+    container_name: kafka3
+    depends_on:
+      - kafka1  # kafka3 wartet auf kafka1
+    environment:
+      KAFKA_ENABLE_KRAFT: "yes"
+      KAFKA_CFG_NODE_ID: 2
+      KAFKA_CFG_PROCESS_ROLES: broker
+      KAFKA_CFG_CONTROLLER_QUORUM_VOTERS: "0@kafka1:9095"
+      KAFKA_CFG_LISTENERS: "PLAINTEXT_LOCAL://:9094,PLAINTEXT_DOCKER://:9098"
+      KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP: "PLAINTEXT_LOCAL:PLAINTEXT,PLAINTEXT_DOCKER:PLAINTEXT,CONTROLLER:PLAINTEXT"
+      KAFKA_CFG_INTER_BROKER_LISTENER_NAME: PLAINTEXT_DOCKER
+      KAFKA_CFG_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+      KAFKA_CFG_ADVERTISED_LISTENERS: "PLAINTEXT_LOCAL://localhost:9094,PLAINTEXT_DOCKER://kafka3:9098"
+      KAFKA_CFG_INITIAL_BROKER_REGISTRATION_TIMEOUT_MS: 180000
+      KAFKA_KRAFT_CLUSTER_ID: "AUCiyWgGTVyH7w5qe3mAKw"
+      KAFKA_CFG_OFFSETS_TOPIC_REPLICATION_FACTOR: 3
+      KAFKA_CFG_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 3
+      KAFKA_CFG_TRANSACTION_STATE_LOG_MIN_ISR: 2      
+    ports:
+      - "9094:9094"
+      - "9098:9098"
+    volumes:
+      - kafka3-data:/bitnami/kafka
+    networks:
+      - kafka-cluster
+
+volumes:
+  kafka1-data:
+    driver: local
+  kafka2-data:
+    driver: local
+  kafka3-data:
+    driver: local

@@ -1,0 +1,561 @@
+Car wagen4 started at start-and-goal-1. First lap begins!
+Car wagen4 is heading to segment-1-1 from start-and-goal-1.
+Car wagen5 started at start-and-goal-1. First lap begins!
+Car wagen5 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen4|1742304789.392715|5|0|start-and-goal-1|False
+Message sent to next segment segment-1-1: wagen5|1742304790.0054204|5|0|start-and-goal-1|False
+Car wagen6 started at start-and-goal-1. First lap begins!
+Car wagen6 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen6|1742304792.1467464|5|0|start-and-goal-1|False
+Car wagen4 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen4|1742304789.392715|5|0|segment-1-1|False
+Car wagen5 is heading to segment-1-2 from segment-1-1.
+Car wagen6 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen5|1742304790.0054204|5|0|segment-1-1|False
+Message sent to next segment segment-1-2: wagen6|1742304792.1467464|5|0|segment-1-1|False
+Car wagen4 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen4|1742304789.392715|5|0|segment-1-2|False
+Car wagen5 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen5|1742304790.0054204|5|0|segment-1-2|False
+Car wagen6 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen6|1742304792.1467464|5|0|segment-1-2|False
+Car wagen4 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen4|1742304789.392715|5|0|segment-1-3|False
+Car wagen5 is heading to segment-1-4-1 from segment-1-3.
+Car wagen6 is heading to segment-1-4-1 from segment-1-3.
+Message sent to next segment segment-1-4-1: wagen5|1742304790.0054204|5|0|segment-1-3|False
+Message sent to next segment segment-1-4-1: wagen6|1742304792.1467464|5|0|segment-1-3|False
+Car wagen5 is entering bottleneck at segment-1-4-1.
+Car wagen5 is waiting for 4 seconds in bottleneck.
+Car wagen4 is entering bottleneck at segment-1-4-2.
+Car wagen4 is waiting for 5 seconds in bottleneck.
+Car wagen5 is leaving bottleneck at segment-1-4-1.
+Car wagen5 is heading to segment-1-5 from segment-1-4-1.
+Car wagen6 is entering bottleneck at segment-1-4-1.
+Car wagen6 is waiting for 1 seconds in bottleneck.
+Message sent to next segment segment-1-5: wagen5|1742304790.0054204|5|0|segment-1-4-1|False
+Car wagen4 is leaving bottleneck at segment-1-4-2.
+Car wagen6 is leaving bottleneck at segment-1-4-1.
+Car wagen6 is heading to segment-1-5 from segment-1-4-1.
+Car wagen4 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen6|1742304792.1467464|5|0|segment-1-4-1|False
+Message sent to next segment segment-1-5: wagen4|1742304789.392715|5|0|segment-1-4-2|False
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 9.0 seconds at segment-1-5.
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 4.5 seconds at segment-1-5.
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 3.0 seconds at segment-1-5.
+Car wagen4 is leaving the slow-down zone at segment-1-5.
+Car wagen4 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen4|1742304789.392715|5|0|segment-1-5|False
+Car wagen6 is leaving the slow-down zone at segment-1-5.
+Car wagen6 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen6|1742304792.1467464|5|0|segment-1-5|False
+Car wagen4 is entering bottleneck at segment-1-6.
+Car wagen4 is waiting for 3 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-6.
+Car wagen4 is heading to segment-1-7 from segment-1-6.
+Car wagen6 is entering bottleneck at segment-1-6.
+Message sent to next segment segment-1-7: wagen4|1742304789.392715|5|0|segment-1-6|False
+Car wagen6 is waiting for 5 seconds in bottleneck.
+Car wagen5 is leaving the slow-down zone at segment-1-5.
+Car wagen5 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen5|1742304790.0054204|5|0|segment-1-5|False
+Car wagen4 is entering bottleneck at segment-1-7.
+Car wagen4 is waiting for 3 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-7.
+Car wagen4 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen4|1742304789.392715|5|0|segment-1-7|False
+Car wagen6 is leaving bottleneck at segment-1-6.
+Car wagen6 is heading to segment-1-7 from segment-1-6.
+Car wagen5 is entering bottleneck at segment-1-6.
+Car wagen5 is waiting for 5 seconds in bottleneck.
+Message sent to next segment segment-1-7: wagen6|1742304792.1467464|5|0|segment-1-6|False
+Car wagen6 is entering bottleneck at segment-1-7.
+Car wagen6 is waiting for 5 seconds in bottleneck.
+Car wagen4 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen4|1742304789.392715|5|0|segment-1-8|False
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 6.0 seconds at segment-1-9.
+Car wagen5 is leaving bottleneck at segment-1-6.
+Car wagen5 is heading to segment-1-7 from segment-1-6.
+Car wagen6 is leaving bottleneck at segment-1-7.
+Message sent to next segment segment-1-7: wagen5|1742304790.0054204|5|0|segment-1-6|False
+Car wagen6 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen6|1742304792.1467464|5|0|segment-1-7|False
+Car wagen5 is entering bottleneck at segment-1-7.
+Car wagen5 is waiting for 5 seconds in bottleneck.
+Car wagen6 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen6|1742304792.1467464|5|0|segment-1-8|False
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 3.0 seconds at segment-1-9.
+Car wagen4 is leaving the slow-down zone at segment-1-9.
+Car wagen4 is heading to start-and-goal-1 from segment-1-9.
+Message sent to next segment start-and-goal-1: wagen4|1742304789.392715|5|0|segment-1-9|False
+Car wagen4 completed lap 1/5.
+Car wagen4 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen4|1742304789.392715|5|1|start-and-goal-1|False
+Car wagen4 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen4|1742304789.392715|5|1|segment-1-1|False
+Car wagen4 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen4|1742304789.392715|5|1|segment-1-2|False
+Car wagen4 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen4|1742304789.392715|5|1|segment-1-3|False
+Car wagen6 is leaving the slow-down zone at segment-1-9.
+Car wagen6 is heading to caesar-1 from segment-1-9.
+Car wagen4 is entering bottleneck at segment-1-4-2.
+Car wagen4 is waiting for 2 seconds in bottleneck.
+Message sent to next segment caesar-1: wagen6|1742304792.1467464|5|0|segment-1-9|False
+Car wagen6 completed lap 1/5.
+Car wagen6 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen6 is heading to segment-1-1 from caesar-1.
+Message sent to next segment segment-1-1: wagen6|1742304792.1467464|5|1|caesar-1|True
+Car wagen6 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen6|1742304792.1467464|5|1|segment-1-1|True
+Car wagen6 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen6|1742304792.1467464|5|1|segment-1-2|True
+Car wagen6 is heading to segment-1-4-1 from segment-1-3.
+Message sent to next segment segment-1-4-1: wagen6|1742304792.1467464|5|1|segment-1-3|True
+Car wagen6 is entering bottleneck at segment-1-4-1.
+Car wagen6 is waiting for 4 seconds in bottleneck.
+Car wagen5 is leaving bottleneck at segment-1-7.
+Car wagen5 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen5|1742304790.0054204|5|0|segment-1-7|False
+Car wagen5 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen5|1742304790.0054204|5|0|segment-1-8|False
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 2.0 seconds at segment-1-9.
+Car wagen4 is leaving bottleneck at segment-1-4-2.
+Car wagen4 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen4|1742304789.392715|5|1|segment-1-4-2|False
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 2.25 seconds at segment-1-5.
+Car wagen5 is leaving the slow-down zone at segment-1-9.
+Car wagen5 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen5|1742304790.0054204|5|0|segment-1-9|False
+Car wagen5 completed lap 1/5.
+Car wagen5 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen5 is heading to segment-1-1 from caesar-1.
+Message sent to next segment segment-1-1: wagen5|1742304790.0054204|5|1|caesar-1|True
+Car wagen5 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen5|1742304790.0054204|5|1|segment-1-1|True
+Car wagen5 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen5|1742304790.0054204|5|1|segment-1-2|True
+Car wagen5 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen5|1742304790.0054204|5|1|segment-1-3|True
+Car wagen5 is entering bottleneck at segment-1-4-2.
+Car wagen5 is waiting for 2 seconds in bottleneck.
+Car wagen4 is leaving the slow-down zone at segment-1-5.
+Car wagen4 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen4|1742304789.392715|5|1|segment-1-5|False
+Car wagen4 is entering bottleneck at segment-1-6.
+Car wagen4 is waiting for 1 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-6.
+Car wagen4 is heading to segment-1-7 from segment-1-6.
+Message sent to next segment segment-1-7: wagen4|1742304789.392715|5|1|segment-1-6|False
+Car wagen4 is entering bottleneck at segment-1-7.
+Car wagen4 is waiting for 3 seconds in bottleneck.
+Car wagen6 is leaving bottleneck at segment-1-4-1.
+Car wagen6 is heading to segment-1-5 from segment-1-4-1.
+Message sent to next segment segment-1-5: wagen6|1742304792.1467464|5|1|segment-1-4-1|True
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 1.8 seconds at segment-1-5.
+Car wagen5 is leaving bottleneck at segment-1-4-2.
+Car wagen5 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen5|1742304790.0054204|5|1|segment-1-4-2|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 1.5 seconds at segment-1-5.
+Car wagen6 is leaving the slow-down zone at segment-1-5.
+Car wagen6 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen6|1742304792.1467464|5|1|segment-1-5|True
+Car wagen6 is entering bottleneck at segment-1-6.
+Car wagen6 is waiting for 1 seconds in bottleneck.
+Car wagen5 is leaving the slow-down zone at segment-1-5.
+Car wagen5 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen5|1742304790.0054204|5|1|segment-1-5|True
+Car wagen4 is leaving bottleneck at segment-1-7.
+Car wagen4 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen4|1742304789.392715|5|1|segment-1-7|False
+Car wagen4 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen4|1742304789.392715|5|1|segment-1-8|False
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 1.5 seconds at segment-1-9.
+Car wagen6 is leaving bottleneck at segment-1-6.
+Car wagen6 is heading to segment-1-7 from segment-1-6.
+Car wagen5 is entering bottleneck at segment-1-6.
+Message sent to next segment segment-1-7: wagen6|1742304792.1467464|5|1|segment-1-6|True
+Car wagen5 is waiting for 5 seconds in bottleneck.
+Car wagen6 is entering bottleneck at segment-1-7.
+Car wagen6 is waiting for 4 seconds in bottleneck.
+Car wagen4 is leaving the slow-down zone at segment-1-9.
+Car wagen4 is heading to start-and-goal-1 from segment-1-9.
+Message sent to next segment start-and-goal-1: wagen4|1742304789.392715|5|1|segment-1-9|False
+Car wagen4 completed lap 2/5.
+Car wagen4 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen4|1742304789.392715|5|2|start-and-goal-1|False
+Car wagen4 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen4|1742304789.392715|5|2|segment-1-1|False
+Car wagen4 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen4|1742304789.392715|5|2|segment-1-2|False
+Car wagen4 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen4|1742304789.392715|5|2|segment-1-3|False
+Car wagen4 is entering bottleneck at segment-1-4-2.
+Car wagen4 is waiting for 2 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-4-2.
+Car wagen4 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen4|1742304789.392715|5|2|segment-1-4-2|False
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 1.2857142857142858 seconds at segment-1-5.
+Car wagen6 is leaving bottleneck at segment-1-7.
+Car wagen6 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen6|1742304792.1467464|5|1|segment-1-7|True
+Car wagen6 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen6|1742304792.1467464|5|1|segment-1-8|True
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 1.2 seconds at segment-1-9.
+Car wagen4 is leaving the slow-down zone at segment-1-5.
+Car wagen4 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen4|1742304789.392715|5|2|segment-1-5|False
+Car wagen5 is leaving bottleneck at segment-1-6.
+Car wagen5 is heading to segment-1-7 from segment-1-6.
+Car wagen4 is entering bottleneck at segment-1-6.
+Car wagen4 is waiting for 3 seconds in bottleneck.
+Message sent to next segment segment-1-7: wagen5|1742304790.0054204|5|1|segment-1-6|True
+Car wagen5 is entering bottleneck at segment-1-7.
+Car wagen5 is waiting for 4 seconds in bottleneck.
+Car wagen6 is leaving the slow-down zone at segment-1-9.
+Car wagen6 is heading to start-and-goal-1 from segment-1-9.
+Message sent to next segment start-and-goal-1: wagen6|1742304792.1467464|5|1|segment-1-9|True
+Car wagen6 completed lap 2/5.
+Car wagen6 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen6|1742304792.1467464|5|2|start-and-goal-1|True
+Car wagen6 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen6|1742304792.1467464|5|2|segment-1-1|True
+Car wagen6 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen6|1742304792.1467464|5|2|segment-1-2|True
+Car wagen6 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen6|1742304792.1467464|5|2|segment-1-3|True
+Car wagen6 is entering bottleneck at segment-1-4-2.
+Car wagen6 is waiting for 5 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-6.
+Car wagen4 is heading to segment-1-7 from segment-1-6.
+Message sent to next segment segment-1-7: wagen4|1742304789.392715|5|2|segment-1-6|False
+Car wagen5 is leaving bottleneck at segment-1-7.
+Car wagen5 is heading to segment-1-8 from segment-1-7.
+Car wagen4 is entering bottleneck at segment-1-7.
+Message sent to next segment segment-1-8: wagen5|1742304790.0054204|5|1|segment-1-7|True
+Car wagen4 is waiting for 4 seconds in bottleneck.
+Car wagen5 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen5|1742304790.0054204|5|1|segment-1-8|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 1.0 seconds at segment-1-9.
+Car wagen5 is leaving the slow-down zone at segment-1-9.
+Car wagen5 is heading to start-and-goal-1 from segment-1-9.
+Message sent to next segment start-and-goal-1: wagen5|1742304790.0054204|5|1|segment-1-9|True
+Car wagen5 completed lap 2/5.
+Car wagen5 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen5|1742304790.0054204|5|2|start-and-goal-1|True
+Car wagen5 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen5|1742304790.0054204|5|2|segment-1-1|True
+Car wagen5 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen5|1742304790.0054204|5|2|segment-1-2|True
+Car wagen5 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen5|1742304790.0054204|5|2|segment-1-3|True
+Car wagen6 is leaving bottleneck at segment-1-4-2.
+Car wagen6 is heading to segment-1-5 from segment-1-4-2.
+Car wagen5 is entering bottleneck at segment-1-4-2.
+Message sent to next segment segment-1-5: wagen6|1742304792.1467464|5|2|segment-1-4-2|True
+Car wagen5 is waiting for 3 seconds in bottleneck.
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 1.125 seconds at segment-1-5.
+Car wagen6 is leaving the slow-down zone at segment-1-5.
+Car wagen6 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen6|1742304792.1467464|5|2|segment-1-5|True
+Car wagen6 is entering bottleneck at segment-1-6.
+Car wagen6 is waiting for 4 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-7.
+Car wagen4 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen4|1742304789.392715|5|2|segment-1-7|False
+Car wagen4 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen4|1742304789.392715|5|2|segment-1-8|False
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 0.8571428571428571 seconds at segment-1-9.
+Car wagen5 is leaving bottleneck at segment-1-4-2.
+Car wagen5 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen5|1742304790.0054204|5|2|segment-1-4-2|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 1.0 seconds at segment-1-5.
+Car wagen4 is leaving the slow-down zone at segment-1-9.
+Car wagen4 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen4|1742304789.392715|5|2|segment-1-9|False
+Car wagen4 completed lap 3/5.
+Car wagen4 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen4 is heading to segment-1-1 from caesar-1.
+Message sent to next segment segment-1-1: wagen4|1742304789.392715|5|3|caesar-1|True
+Car wagen4 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen4|1742304789.392715|5|3|segment-1-1|True
+Car wagen4 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen4|1742304789.392715|5|3|segment-1-2|True
+Car wagen4 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen4|1742304789.392715|5|3|segment-1-3|True
+Car wagen4 is entering bottleneck at segment-1-4-2.
+Car wagen4 is waiting for 4 seconds in bottleneck.
+Car wagen5 is leaving the slow-down zone at segment-1-5.
+Car wagen5 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen5|1742304790.0054204|5|2|segment-1-5|True
+Car wagen6 is leaving bottleneck at segment-1-6.
+Car wagen6 is heading to segment-1-7 from segment-1-6.
+Car wagen5 is entering bottleneck at segment-1-6.
+Message sent to next segment segment-1-7: wagen6|1742304792.1467464|5|2|segment-1-6|True
+Car wagen5 is waiting for 1 seconds in bottleneck.
+Car wagen6 is entering bottleneck at segment-1-7.
+Car wagen6 is waiting for 1 seconds in bottleneck.
+Car wagen6 is leaving bottleneck at segment-1-7.
+Car wagen6 is heading to segment-1-8 from segment-1-7.
+Car wagen5 is leaving bottleneck at segment-1-6.
+Car wagen5 is heading to segment-1-7 from segment-1-6.
+Message sent to next segment segment-1-8: wagen6|1742304792.1467464|5|2|segment-1-7|True
+Message sent to next segment segment-1-7: wagen5|1742304790.0054204|5|2|segment-1-6|True
+Car wagen5 is entering bottleneck at segment-1-7.
+Car wagen5 is waiting for 2 seconds in bottleneck.
+Car wagen6 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen6|1742304792.1467464|5|2|segment-1-8|True
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 0.75 seconds at segment-1-9.
+Car wagen6 is leaving the slow-down zone at segment-1-9.
+Car wagen6 is heading to start-and-goal-1 from segment-1-9.
+Message sent to next segment start-and-goal-1: wagen6|1742304792.1467464|5|2|segment-1-9|True
+Car wagen6 completed lap 3/5.
+Car wagen6 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen6|1742304792.1467464|5|3|start-and-goal-1|True
+Car wagen6 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen6|1742304792.1467464|5|3|segment-1-1|True
+Car wagen6 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen6|1742304792.1467464|5|3|segment-1-2|True
+Car wagen6 is heading to segment-1-4-1 from segment-1-3.
+Message sent to next segment segment-1-4-1: wagen6|1742304792.1467464|5|3|segment-1-3|True
+Car wagen6 is entering bottleneck at segment-1-4-1.
+Car wagen6 is waiting for 3 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-4-2.
+Car wagen4 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen4|1742304789.392715|5|3|segment-1-4-2|True
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 0.9 seconds at segment-1-5.
+Car wagen5 is leaving bottleneck at segment-1-7.
+Car wagen5 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen5|1742304790.0054204|5|2|segment-1-7|True
+Car wagen5 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen5|1742304790.0054204|5|2|segment-1-8|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 0.6666666666666666 seconds at segment-1-9.
+Car wagen4 is leaving the slow-down zone at segment-1-5.
+Car wagen4 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen4|1742304789.392715|5|3|segment-1-5|True
+Car wagen4 is entering bottleneck at segment-1-6.
+Car wagen4 is waiting for 1 seconds in bottleneck.
+Car wagen5 is leaving the slow-down zone at segment-1-9.
+Car wagen5 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen5|1742304790.0054204|5|2|segment-1-9|True
+Car wagen5 completed lap 3/5.
+Car wagen5 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen5 is heading to segment-1-1 from caesar-1.
+Message sent to next segment segment-1-1: wagen5|1742304790.0054204|5|3|caesar-1|True
+Car wagen5 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen5|1742304790.0054204|5|3|segment-1-1|True
+Car wagen5 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen5|1742304790.0054204|5|3|segment-1-2|True
+Car wagen5 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen5|1742304790.0054204|5|3|segment-1-3|True
+Car wagen5 is entering bottleneck at segment-1-4-2.
+Car wagen5 is waiting for 1 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-6.
+Car wagen4 is heading to segment-1-7 from segment-1-6.
+Message sent to next segment segment-1-7: wagen4|1742304789.392715|5|3|segment-1-6|True
+Car wagen4 is entering bottleneck at segment-1-7.
+Car wagen4 is waiting for 2 seconds in bottleneck.
+Car wagen5 is leaving bottleneck at segment-1-4-2.
+Car wagen5 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen5|1742304790.0054204|5|3|segment-1-4-2|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 0.8181818181818182 seconds at segment-1-5.
+Car wagen6 is leaving bottleneck at segment-1-4-1.
+Car wagen6 is heading to segment-1-5 from segment-1-4-1.
+Message sent to next segment segment-1-5: wagen6|1742304792.1467464|5|3|segment-1-4-1|True
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 0.75 seconds at segment-1-5.
+Car wagen5 is leaving the slow-down zone at segment-1-5.
+Car wagen5 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen5|1742304790.0054204|5|3|segment-1-5|True
+Car wagen5 is entering bottleneck at segment-1-6.
+Car wagen5 is waiting for 2 seconds in bottleneck.
+Car wagen6 is leaving the slow-down zone at segment-1-5.
+Car wagen6 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen6|1742304792.1467464|5|3|segment-1-5|True
+Car wagen4 is leaving bottleneck at segment-1-7.
+Car wagen4 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen4|1742304789.392715|5|3|segment-1-7|True
+Car wagen4 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen4|1742304789.392715|5|3|segment-1-8|True
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 0.6 seconds at segment-1-9.
+Car wagen4 is leaving the slow-down zone at segment-1-9.
+Car wagen4 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen4|1742304789.392715|5|3|segment-1-9|True
+Car wagen4 completed lap 4/5.
+Car wagen4 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen4 is heading to segment-1-1 from caesar-1.
+Message sent to next segment segment-1-1: wagen4|1742304789.392715|5|4|caesar-1|True
+Car wagen4 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen4|1742304789.392715|5|4|segment-1-1|True
+Car wagen4 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen4|1742304789.392715|5|4|segment-1-2|True
+Car wagen4 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen4|1742304789.392715|5|4|segment-1-3|True
+Car wagen4 is entering bottleneck at segment-1-4-2.
+Car wagen4 is waiting for 3 seconds in bottleneck.
+Car wagen5 is leaving bottleneck at segment-1-6.
+Car wagen5 is heading to segment-1-7 from segment-1-6.
+Car wagen6 is entering bottleneck at segment-1-6.
+Message sent to next segment segment-1-7: wagen5|1742304790.0054204|5|3|segment-1-6|True
+Car wagen6 is waiting for 5 seconds in bottleneck.
+Car wagen5 is entering bottleneck at segment-1-7.
+Car wagen5 is waiting for 4 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-4-2.
+Car wagen4 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen4|1742304789.392715|5|4|segment-1-4-2|True
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 0.6923076923076923 seconds at segment-1-5.
+Car wagen4 is leaving the slow-down zone at segment-1-5.
+Car wagen4 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen4|1742304789.392715|5|4|segment-1-5|True
+Car wagen5 is leaving bottleneck at segment-1-7.
+Car wagen5 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen5|1742304790.0054204|5|3|segment-1-7|True
+Car wagen5 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen5|1742304790.0054204|5|3|segment-1-8|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 0.5454545454545454 seconds at segment-1-9.
+Car wagen5 is leaving the slow-down zone at segment-1-9.
+Car wagen5 is heading to start-and-goal-1 from segment-1-9.
+Message sent to next segment start-and-goal-1: wagen5|1742304790.0054204|5|3|segment-1-9|True
+Car wagen5 completed lap 4/5.
+Car wagen5 is heading to segment-1-1 from start-and-goal-1.
+Message sent to next segment segment-1-1: wagen5|1742304790.0054204|5|4|start-and-goal-1|True
+Car wagen5 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen5|1742304790.0054204|5|4|segment-1-1|True
+Car wagen5 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen5|1742304790.0054204|5|4|segment-1-2|True
+Car wagen5 is heading to segment-1-4-1 from segment-1-3.
+Message sent to next segment segment-1-4-1: wagen5|1742304790.0054204|5|4|segment-1-3|True
+Car wagen5 is entering bottleneck at segment-1-4-1.
+Car wagen5 is waiting for 5 seconds in bottleneck.
+Car wagen6 is leaving bottleneck at segment-1-6.
+Car wagen6 is heading to segment-1-7 from segment-1-6.
+Car wagen4 is entering bottleneck at segment-1-6.
+Message sent to next segment segment-1-7: wagen6|1742304792.1467464|5|3|segment-1-6|True
+Car wagen4 is waiting for 1 seconds in bottleneck.
+Car wagen6 is entering bottleneck at segment-1-7.
+Car wagen6 is waiting for 5 seconds in bottleneck.
+Car wagen4 is leaving bottleneck at segment-1-6.
+Car wagen4 is heading to segment-1-7 from segment-1-6.
+Message sent to next segment segment-1-7: wagen4|1742304789.392715|5|4|segment-1-6|True
+Car wagen5 is leaving bottleneck at segment-1-4-1.
+Car wagen5 is heading to segment-1-5 from segment-1-4-1.
+Message sent to next segment segment-1-5: wagen5|1742304790.0054204|5|4|segment-1-4-1|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 0.6428571428571429 seconds at segment-1-5.
+Car wagen6 is leaving bottleneck at segment-1-7.
+Car wagen6 is heading to segment-1-8 from segment-1-7.
+Car wagen4 is entering bottleneck at segment-1-7.
+Car wagen4 is waiting for 4 seconds in bottleneck.
+Message sent to next segment segment-1-8: wagen6|1742304792.1467464|5|3|segment-1-7|True
+Car wagen6 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen6|1742304792.1467464|5|3|segment-1-8|True
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 0.5 seconds at segment-1-9.
+Car wagen5 is leaving the slow-down zone at segment-1-5.
+Car wagen5 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen5|1742304790.0054204|5|4|segment-1-5|True
+Car wagen5 is entering bottleneck at segment-1-6.
+Car wagen5 is waiting for 2 seconds in bottleneck.
+Car wagen6 is leaving the slow-down zone at segment-1-9.
+Car wagen6 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen6|1742304792.1467464|5|3|segment-1-9|True
+Car wagen6 completed lap 4/5.
+Car wagen6 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen6 is heading to segment-1-1 from caesar-1.
+Message sent to next segment segment-1-1: wagen6|1742304792.1467464|5|4|caesar-1|True
+Car wagen6 is heading to segment-1-2 from segment-1-1.
+Message sent to next segment segment-1-2: wagen6|1742304792.1467464|5|4|segment-1-1|True
+Car wagen6 is heading to segment-1-3 from segment-1-2.
+Message sent to next segment segment-1-3: wagen6|1742304792.1467464|5|4|segment-1-2|True
+Car wagen6 is heading to segment-1-4-2 from segment-1-3.
+Message sent to next segment segment-1-4-2: wagen6|1742304792.1467464|5|4|segment-1-3|True
+Car wagen6 is entering bottleneck at segment-1-4-2.
+Car wagen6 is waiting for 3 seconds in bottleneck.
+Car wagen5 is leaving bottleneck at segment-1-6.
+Car wagen5 is heading to segment-1-7 from segment-1-6.
+Message sent to next segment segment-1-7: wagen5|1742304790.0054204|5|4|segment-1-6|True
+Car wagen6 is leaving bottleneck at segment-1-4-2.
+Car wagen6 is heading to segment-1-5 from segment-1-4-2.
+Message sent to next segment segment-1-5: wagen6|1742304792.1467464|5|4|segment-1-4-2|True
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 0.6 seconds at segment-1-5.
+Car wagen4 is leaving bottleneck at segment-1-7.
+Car wagen4 is heading to segment-1-8 from segment-1-7.
+Car wagen5 is entering bottleneck at segment-1-7.
+Car wagen5 is waiting for 1 seconds in bottleneck.
+Message sent to next segment segment-1-8: wagen4|1742304789.392715|5|4|segment-1-7|True
+Car wagen4 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen4|1742304789.392715|5|4|segment-1-8|True
+Car wagen4 is entering a slow-down zone. Cars must reduce speed!
+Car wagen4 is delayed by 0.46153846153846156 seconds at segment-1-9.
+Car wagen6 is leaving the slow-down zone at segment-1-5.
+Car wagen6 is heading to segment-1-6 from segment-1-5.
+Message sent to next segment segment-1-6: wagen6|1742304792.1467464|5|4|segment-1-5|True
+Car wagen6 is entering bottleneck at segment-1-6.
+Car wagen6 is waiting for 4 seconds in bottleneck.
+Car wagen4 is leaving the slow-down zone at segment-1-9.
+Car wagen4 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen4|1742304789.392715|5|4|segment-1-9|True
+Car wagen4 completed lap 5/5.
+Car wagen4 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen4 finished the race after 5 laps!
+Car wagen5 is leaving bottleneck at segment-1-7.
+Car wagen5 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen5|1742304790.0054204|5|4|segment-1-7|True
+Car wagen5 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen5|1742304790.0054204|5|4|segment-1-8|True
+Car wagen5 is entering a slow-down zone. Cars must reduce speed!
+Car wagen5 is delayed by 0.42857142857142855 seconds at segment-1-9.
+Car wagen5 is leaving the slow-down zone at segment-1-9.
+Car wagen5 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen5|1742304790.0054204|5|4|segment-1-9|True
+Car wagen5 completed lap 5/5.
+Car wagen5 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen5 finished the race after 5 laps!
+Car wagen6 is leaving bottleneck at segment-1-6.
+Car wagen6 is heading to segment-1-7 from segment-1-6.
+Message sent to next segment segment-1-7: wagen6|1742304792.1467464|5|4|segment-1-6|True
+Car wagen6 is entering bottleneck at segment-1-7.
+Car wagen6 is waiting for 1 seconds in bottleneck.
+Car wagen6 is leaving bottleneck at segment-1-7.
+Car wagen6 is heading to segment-1-8 from segment-1-7.
+Message sent to next segment segment-1-8: wagen6|1742304792.1467464|5|4|segment-1-7|True
+Car wagen6 is heading to segment-1-9 from segment-1-8.
+Message sent to next segment segment-1-9: wagen6|1742304792.1467464|5|4|segment-1-8|True
+Car wagen6 is entering a slow-down zone. Cars must reduce speed!
+Car wagen6 is delayed by 0.4 seconds at segment-1-9.
+Car wagen6 is leaving the slow-down zone at segment-1-9.
+Car wagen6 is heading to caesar-1 from segment-1-9.
+Message sent to next segment caesar-1: wagen6|1742304792.1467464|5|4|segment-1-9|True
+Car wagen6 completed lap 5/5.
+Car wagen6 visited Caesar's sector at caesar-1. This is mandatory!
+Car wagen6 finished the race after 5 laps!
+
+-----------------------------
+
+Car wagen4 finished the race in 137.10 seconds.
+Car wagen5 finished the race in 137.31 seconds.
+Car wagen6 finished the race in 139.58 seconds.
