@@ -1,0 +1,1 @@
+{"version": 1, "partitions": [{"topic": "segment-1-8", "partition": 0, "replicas": [0, 1, 2]}]}
