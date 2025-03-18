@@ -1,0 +1,25 @@
+#Docker starten:
+docker-compose up -d
+docker exec kafka kafka-storage.sh random-uuid
+docker exec kafka kafka-storage.sh format --ignore-formatted --cluster-id <Nummer> --config /opt/bitnami/kafka/config/kraft/server.properties
+docker logs kafka
+
+#Strecken erstellen:
+python circular-course.py 2 10 data/track_description.json
+
+#Kafka konfigurieren:
+python configurator.py data/track_description.json
+
+#Wagen starten:
+python start_and_goal.py start-and-goal-1 3 wagen1
+python start_and_goal.py start-and-goal-2 3 wagen2
+
+#In einem separatem Fenster:
+python results_collector.py
+
+#Docker vollständig beenden:
+docker-compose down -v
+
+
+#Kafka installieren:
+pip install kafka-python
